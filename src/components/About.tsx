@@ -39,7 +39,6 @@ export default function About() {
             src={profile}
             alt="Sri Haryo Trah Pamungkas"
             className="rounded-lg shadow-lg w-full object-cover"
-            loading="lazy"
           />
           </div>
           <div className="space-y-6">
