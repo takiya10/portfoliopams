@@ -35,11 +35,10 @@ export default function About() {
 
         <div className="grid gap-10 md:grid-cols-12 items-center">
         <div className="md:col-span-5 order-2 md:order-1"></div>
-          <div className="mx-auto md:mx-0 w-[160px] sm:w-[200px] md:w-[240px] lg:w-[280px]">
           <img
             src={profile}
             alt="Sri Haryo Trah Pamungkas"
-            className="rounded-lg shadow-lg w-full object-cover"
+            className="w-[clamp(160px,28vw,320px)] aspect-[4/5] object-cover rounded-2xl shadow-xl mx-auto md:mx-0"
           />
           <div classname="absolute -z-10 -inset-4 rounded-3xl bg-gradient-to-br from-blue-500/10 to-purple-500/10 blur-xl" />
           </div>
