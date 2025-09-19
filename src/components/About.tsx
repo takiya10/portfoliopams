@@ -1,5 +1,6 @@
 import React from 'react';
 import { Code, Palette, Zap } from 'lucide-react';
+import profile from "@/assets/profile.jpeg";
 
 export default function About() {
   const features = [
@@ -34,11 +35,12 @@ export default function About() {
 
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div>
-            <img
-              src={`${import.meta.env.BASE_URL}profile.jpeg`}
-              alt="Sri Haryo Trah Pamungkas"
-              className="rounded-lg shadow-lg w-full"
-            />
+          <img
+            src={profile}
+            alt="Sri Haryo Trah Pamungkas"
+            className="rounded-lg shadow-lg w-full object-cover"
+            loading="lazy"
+          />
           </div>
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold text-slate-800">Perjalanan Saya</h3>
