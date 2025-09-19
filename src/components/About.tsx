@@ -46,7 +46,7 @@ export default function About() {
         </div>
 
         {/* Content */}
-        <div className="grid gap-10 md:grid-cols-12 items-center">
+        <div className="grid items-start gap-5 md:gap-6 lg:gap-8 md:grid-cols-12">
           {/* Foto */}
           <div className="md:col-span-5 order-2 md:order-1">
             <div className="relative mx-auto md:mx-0 w-[clamp(160px,28vw,320px)]">
