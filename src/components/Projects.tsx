@@ -14,14 +14,14 @@ type Item = {
 const items: Item[] = [
   {
     id: 1,
-    title: "Platform E-Commerce",
+    title: "Landing Page Affilate",
     description:
-      "Solusi e-commerce full-stack. Termasuk autentikasi pengguna, manajemen produk, dan integrasi pembayaran.",
+      "Solusi marketing untuk affilate shopee dan yang lain.",
     image:
       "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600",
-    tech: ["React", "Node.js", "MongoDB", "Stripe"],
-    github: "https://github.com/",
-    demo: "https://demo.com",
+    tech: ["TypeScript", "JavaScript", "TailWind", "Vite"],
+    github: "https://github.com/takiya10/ladingpage",
+    demo: "https://github.com/takiya10/ladingpage",
   },
   {
     id: 2,
