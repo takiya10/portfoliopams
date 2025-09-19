@@ -35,9 +35,9 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div>
             <img
-            src={`${import.meta.env.BASE_URL}profile.jpg`}
-            alt="Sri Haryo Trah Pamungkas"
-            className="rounded-lg shadow-lg w-full"
+              src={`${import.meta.env.BASE_URL}profile.jpeg`}
+              alt="Sri Haryo Trah Pamungkas"
+              className="rounded-lg shadow-lg w-full"
             />
           </div>
           <div className="space-y-6">
