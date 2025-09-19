@@ -19,19 +19,19 @@ export default function Hero({ scrollToSection }: HeroProps) {
             Sri Haryo Trah Pamungkas
           </h1>
           <p className="text-xl md:text-2xl text-slate-300 mb-8 max-w-3xl mx-auto">
-            Full Stack Developer & UI/UX Designer yang bersemangat menciptakan pengalaman digital yang indah dan fungsional
+            Junior Developer & UI/UX Designer yang bersemangat menciptakan pengalaman digital yang indah dan fungsional
           </p>
           
           <div className="flex justify-center space-x-6 mb-12">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" 
+            <a href="https://github.com/takiya10" target="_blank" rel="noopener noreferrer" 
                className="p-3 rounded-full bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-all duration-300 hover:scale-110">
               <Github size={24} />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+            <a href="https://www.linkedin.com/in/0xpamungkas/" target="_blank" rel="noopener noreferrer"
                className="p-3 rounded-full bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-all duration-300 hover:scale-110">
               <Linkedin size={24} />
             </a>
-            <a href="mailto:john@example.com"
+            <a href="mailto:ngkass.bhadick@gmail.com"
                className="p-3 rounded-full bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-all duration-300 hover:scale-110">
               <Mail size={24} />
             </a>

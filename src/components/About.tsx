@@ -35,17 +35,17 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div>
             <img
-              src="/public/Generated Image March 27, 2025 - 7_39PM.jpeg"
-              alt="Sri Haryo Trah Pamungkas"
-              className="rounded-lg shadow-lg w-full"
+            src={`${import.meta.env.BASE_URL}profile.jpg`}
+            alt="Sri Haryo Trah Pamungkas"
+            className="rounded-lg shadow-lg w-full"
             />
           </div>
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold text-slate-800">Perjalanan Saya</h3>
             <p className="text-slate-600 leading-relaxed">
-              Dimulai sebagai mahasiswa yang penasaran dan suka memecahkan masalah melalui kode. Selama bertahun-tahun, 
-              saya telah bekerja dengan startup dan perusahaan mapan, membantu mereka mewujudkan 
-              visi digital mereka.
+              Dimulai sebagai mahasiswa yang penasaran dan suka memecahkan masalah melalui dunia komputer. Selama bertahun-tahun, 
+              saya telah explore teknologi , membantu  mewujudkan 
+              visi digital yang ada.
             </p>
             <p className="text-slate-600 leading-relaxed">
               Saya percaya pada pembelajaran berkelanjutan dan tetap update dengan teknologi terbaru. 
