@@ -35,7 +35,7 @@ export default function About() {
 
         <div className="grid gap-10 md:grid-cols-12 items-center">
         <div className="md:col-span-5 order-2 md:order-1"></div>
-          <div className="relative mx-auto max-w-[420px]"></div>
+          <div className="mx-auto md:mx-0 w-[220px] sm:w-[260px] md:w-[300px] lg:w-[340px]">
           <img
             src={profile}
             alt="Sri Haryo Trah Pamungkas"
