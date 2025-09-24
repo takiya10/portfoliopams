@@ -5,7 +5,7 @@ export default function Skills() {
     {
       title: "Frontend",
       skills: [
-        { name: "React", level: 95 },
+        { name: "React", level: 60 },
         { name: "TypeScript", level: 90 },
         { name: "Vue.js", level: 85 },
         { name: "Tailwind CSS", level: 92 }
@@ -14,19 +14,19 @@ export default function Skills() {
     {
       title: "Backend",
       skills: [
-        { name: "Node.js", level: 88 },
-        { name: "Python", level: 82 },
-        { name: "PostgreSQL", level: 85 },
-        { name: "MongoDB", level: 80 }
+        { name: "Node.js", level: 70 },
+        { name: "Python", level: 70 },
+        { name: "PostgreSQL", level: 60 },
+        { name: "MongoDB", level: 60 }
       ]
     },
     {
       title: "Tools & Others",
       skills: [
-        { name: "Git", level: 93 },
-        { name: "Docker", level: 78 },
+        { name: "Git", level: 90 },
+        { name: "Docker", level: 60 },
         { name: "AWS", level: 75 },
-        { name: "Figma", level: 88 }
+        { name: "Figma", level: 60 }
       ]
     }
   ];
@@ -69,7 +69,7 @@ export default function Skills() {
         <div className="mt-16 text-center">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="bg-slate-800 p-6 rounded-xl">
-              <div className="text-3xl font-bold text-blue-400 mb-2">30+</div>
+              <div className="text-3xl font-bold text-blue-400 mb-2">10+</div>
               <div className="text-slate-300">Proyek</div>
             </div>
             <div className="bg-slate-800 p-6 rounded-xl">
@@ -77,7 +77,7 @@ export default function Skills() {
               <div className="text-slate-300">Tahun</div>
             </div>
             <div className="bg-slate-800 p-6 rounded-xl">
-              <div className="text-3xl font-bold text-green-400 mb-2">30+</div>
+              <div className="text-3xl font-bold text-green-400 mb-2">10+</div>
               <div className="text-slate-300">Klien</div>
             </div>
             <div className="bg-slate-800 p-6 rounded-xl">
