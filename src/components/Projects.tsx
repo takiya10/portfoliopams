@@ -25,13 +25,13 @@ const items: Item[] = [
   },
   {
     id: 2,
-    title: "Aplikasi Manajemen Tugas",
+    title: "Mini Shop",
     description:
-      "Aplikasi kolaboratif real-time dengan board dan filter. Cocok untuk tim kecil.",
+      "Automation — Flask + JSON-based Selenium E2E ",
     image:
       "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=600",
-    tech: ["Vue.js", "Firebase", "Tailwind CSS"],
-    github: "https://github.com/",
+    tech: ["Bootstrap 5", "Flask", "Tailwind CSS", "Python"],
+    github: "https://github.com/takiya10/mini-shop-flask-selenium-json-e2e",
     demo: "https://demo.com",
   },
   {
