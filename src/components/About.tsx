@@ -86,7 +86,7 @@ export default function About() {
             {/* Stats */}
             <div className="mt-8 grid grid-cols-2 gap-6 max-w-md">
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600">30+</div>
+                <div className="text-3xl font-bold text-blue-600">10+</div>
                 <div className="text-slate-500 text-sm">Proyek Selesai</div>
               </div>
               <div className="text-center">
