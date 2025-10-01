@@ -7,7 +7,7 @@ interface HeroProps {
 
 export default function Hero({ scrollToSection }: HeroProps) {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 text-white relative overflow-hidden">
+    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 text-white relative">
       {/* Background decoration */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-blue-500/20 to-transparent"></div>
@@ -15,7 +15,7 @@ export default function Hero({ scrollToSection }: HeroProps) {
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         <div className="animate-fade-in-up">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-7xl font-bold leading-tight md:leading-[1.2] mb-8 pb-2 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
             Sri Haryo Trah Pamungkas
           </h1>
           <p className="text-xl md:text-2xl text-slate-300 mb-8 max-w-3xl mx-auto">
