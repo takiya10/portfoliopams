@@ -14,9 +14,9 @@ type Item = {
 const items: Item[] = [
   {
     id: 1,
-    title: "Landing Page Affilate",
+    title: "Landing Page Affiliate",
     description:
-      "Solusi marketing untuk affilate shopee dan yang lain.",
+      "Solusi marketing untuk Affiliate shopee dan yang lain.",
     image:
       "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600",
     tech: ["TypeScript", "JavaScript", "TailWind", "Vite"],
