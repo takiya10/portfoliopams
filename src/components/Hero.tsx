@@ -1,25 +1,27 @@
-import React from 'react';
 import { Github, Linkedin, Mail, ChevronDown } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 interface HeroProps {
   scrollToSection: (sectionId: string) => void;
 }
 
 export default function Hero({ scrollToSection }: HeroProps) {
+  const { t } = useTranslation();
+
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 text-white relative">
+    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 dark:from-slate-950 dark:via-blue-950 dark:to-slate-900 text-white relative">
       {/* Background decoration */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-blue-500/20 to-transparent"></div>
       </div>
-      
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         <div className="animate-fade-in-up">
           <h1 className="text-5xl md:text-7xl font-bold leading-tight md:leading-[1.2] mb-8 pb-2 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-            Sri Haryo Trah Pamungkas
+            {t('hero.name')}
           </h1>
           <p className="text-xl md:text-2xl text-slate-300 mb-8 max-w-3xl mx-auto">
-            Junior Developer & UI/UX Designer yang bersemangat menciptakan pengalaman digital yang indah dan fungsional
+            {t('hero.subtitle')}
           </p>
           
           <div className="flex justify-center space-x-6 mb-12">
@@ -42,13 +44,13 @@ export default function Hero({ scrollToSection }: HeroProps) {
               onClick={() => scrollToSection('projects')}
               className="w-full sm:w-auto px-8 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg font-semibold transition-colors duration-200"
             >
-              Lihat Karya Saya
+              {t('hero.viewWork')}
             </button>
             <button
               onClick={() => scrollToSection('contact')}
               className="w-full sm:w-auto px-8 py-3 border-2 border-white/20 hover:bg-white/10 rounded-lg font-semibold transition-all duration-200"
             >
-              Hubungi Saya
+              {t('hero.contactMe')}
             </button>
           </div>
         </div>

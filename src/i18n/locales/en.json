@@ -1,0 +1,98 @@
+{
+  "header": {
+    "portfolio": "Portfolio",
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Sri Haryo Trah Pamungkas",
+    "subtitle": "Junior Developer & UI/UX Designer passionate about creating beautiful and functional digital experiences",
+    "viewWork": "View My Work",
+    "contactMe": "Contact Me"
+  },
+  "about": {
+    "title": "About Me",
+    "intro": "I'm a passionate developer with 5+ years of experience in creating digital solutions that make a difference. I love turning complex problems into simple and beautiful designs.",
+    "journey": "My Journey",
+    "paragraph1": "Started as a curious student who loved solving problems through computers. Over the years, I've explored technology and helped bring digital visions to life.",
+    "paragraph2": "I believe in continuous learning and staying updated with the latest technologies. When not coding, you'll find me exploring new design trends, contributing to open source, or sharing knowledge with the developer community.",
+    "projectsCompleted": "Projects Completed",
+    "yearsExperience": "Years Experience",
+    "features": {
+      "cleanCode": {
+        "title": "Clean Code",
+        "description": "Writing maintainable, scalable code with best practices and modern technologies."
+      },
+      "creativeDesign": {
+        "title": "Creative Design",
+        "description": "Crafting beautiful, intuitive user interfaces that provide exceptional user experiences."
+      },
+      "performance": {
+        "title": "Performance",
+        "description": "Building fast, optimized applications that deliver results and exceed expectations."
+      }
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Some of the work I've done.",
+    "repo": "Repo",
+    "demo": "Demo",
+    "items": {
+      "landingPage": {
+        "title": "Affiliate Landing Page",
+        "description": "Marketing solution for Shopee affiliate and others."
+      },
+      "miniShop": {
+        "title": "Mini Shop",
+        "description": "Automation — Flask + JSON-based Selenium E2E"
+      },
+      "weatherDashboard": {
+        "title": "Weather Dashboard",
+        "description": "Interactive weather dashboard with data visualization and location-based forecasting."
+      }
+    }
+  },
+  "skills": {
+    "title": "Skills & Expertise",
+    "subtitle": "I'm constantly learning and improving my skills. Here are the technologies I work with regularly.",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "tools": "Tools & Others"
+    },
+    "stats": {
+      "projects": "Projects",
+      "years": "Years",
+      "clients": "Clients",
+      "technologies": "Technologies"
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Ready to work together? I'd love to hear from you. Send me a message and I'll respond as soon as possible.",
+    "letsTalk": "Let's Talk",
+    "intro": "I'm always interested in new opportunities and exciting projects. Whether you have a question or just want to say hi, feel free to reach out!",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "locationValue": "Bekasi, West Java",
+    "form": {
+      "name": "Your Name",
+      "namePlaceholder": "Enter your name",
+      "email": "Email Address",
+      "emailPlaceholder": "Enter your email",
+      "message": "Message",
+      "messagePlaceholder": "Tell me about your project...",
+      "submit": "Send Message"
+    }
+  },
+  "footer": {
+    "madeWith": "Made with",
+    "by": "by Sri Haryo Trah Pamungkas",
+    "rights": "© 2024 All rights reserved."
+  }
+}

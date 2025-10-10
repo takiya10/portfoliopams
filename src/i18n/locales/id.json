@@ -1,0 +1,98 @@
+{
+  "header": {
+    "portfolio": "Portfolio",
+    "home": "Beranda",
+    "about": "Tentang",
+    "projects": "Proyek",
+    "skills": "Keahlian",
+    "contact": "Kontak"
+  },
+  "hero": {
+    "name": "Sri Haryo Trah Pamungkas",
+    "subtitle": "Junior Developer & UI/UX Designer yang bersemangat menciptakan pengalaman digital yang indah dan fungsional",
+    "viewWork": "Lihat Karya Saya",
+    "contactMe": "Hubungi Saya"
+  },
+  "about": {
+    "title": "Tentang Saya",
+    "intro": "Saya adalah seorang developer yang bersemangat dengan pengalaman 5+ tahun dalam menciptakan solusi digital yang membuat perbedaan. Saya suka mengubah masalah kompleks menjadi desain yang sederhana dan indah.",
+    "journey": "Perjalanan Saya",
+    "paragraph1": "Dimulai sebagai mahasiswa yang penasaran dan suka memecahkan masalah melalui dunia komputer. Selama bertahun-tahun, saya telah mengeksplorasi teknologi dan membantu mewujudkan visi digital yang ada.",
+    "paragraph2": "Saya percaya pada pembelajaran berkelanjutan dan tetap update dengan teknologi terbaru. Ketika tidak coding, Anda akan menemukan saya mengeksplorasi tren desain baru, berkontribusi pada open source, atau berbagi pengetahuan dengan komunitas developer.",
+    "projectsCompleted": "Proyek Selesai",
+    "yearsExperience": "Tahun Pengalaman",
+    "features": {
+      "cleanCode": {
+        "title": "Clean Code",
+        "description": "Menulis kode yang mudah dipelihara dan scalable dengan best practices dan teknologi modern."
+      },
+      "creativeDesign": {
+        "title": "Creative Design",
+        "description": "Menciptakan antarmuka pengguna yang indah dan intuitif yang memberikan pengalaman pengguna yang luar biasa."
+      },
+      "performance": {
+        "title": "Performance",
+        "description": "Membangun aplikasi yang cepat dan optimal yang memberikan hasil dan melebihi ekspektasi."
+      }
+    }
+  },
+  "projects": {
+    "title": "Proyek",
+    "subtitle": "Beberapa karya yang pernah saya kerjakan.",
+    "repo": "Repo",
+    "demo": "Demo",
+    "items": {
+      "landingPage": {
+        "title": "Landing Page Affiliate",
+        "description": "Solusi marketing untuk affiliate shopee dan yang lain."
+      },
+      "miniShop": {
+        "title": "Mini Shop",
+        "description": "Automation — Flask + JSON-based Selenium E2E"
+      },
+      "weatherDashboard": {
+        "title": "Dashboard Cuaca",
+        "description": "Dashboard cuaca interaktif dengan visualisasi data dan prakiraan berbasis lokasi."
+      }
+    }
+  },
+  "skills": {
+    "title": "Skills & Expertise",
+    "subtitle": "Saya terus belajar dan meningkatkan kemampuan. Berikut adalah teknologi yang saya gunakan secara rutin.",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "tools": "Tools & Others"
+    },
+    "stats": {
+      "projects": "Proyek",
+      "years": "Tahun",
+      "clients": "Klien",
+      "technologies": "Teknologi"
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Siap bekerja sama? Saya ingin mendengar dari Anda. Kirim saya pesan dan saya akan merespons sesegera mungkin.",
+    "letsTalk": "Let's Talk",
+    "intro": "Saya selalu tertarik dengan peluang baru dan proyek yang menarik. Apakah Anda memiliki pertanyaan atau hanya ingin menyapa, jangan ragu untuk menghubungi!",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "locationValue": "Bekasi, Jawa Barat",
+    "form": {
+      "name": "Nama Anda",
+      "namePlaceholder": "Masukkan nama Anda",
+      "email": "Alamat Email",
+      "emailPlaceholder": "Masukkan email Anda",
+      "message": "Pesan",
+      "messagePlaceholder": "Ceritakan tentang proyek Anda...",
+      "submit": "Kirim Pesan"
+    }
+  },
+  "footer": {
+    "madeWith": "Made with",
+    "by": "by Sri Haryo Trah Pamungkas",
+    "rights": "© 2024 All rights reserved."
+  }
+}
